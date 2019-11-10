@@ -11,11 +11,15 @@ This project lets you quickly set up a blog. Checkout the live demo of this proj
 How to Use
 ----------
 
-1. `Remix` this project.
+This project is hosted on Glitch. It may be easyiest to Remix it from there. Otherwise, you can make a new Glitch project, and run `git clone https://github.com/strawstack/hugo-glitch.git` from the Glitch console then start at step two below:
+
+1. `Remix` this project on Glitch. Link: https://glitch.com/~hugo-template
 2. Get your site's URL from `Share > Live App > Copy`.
 3. Replace the `baseURL` in `config.toml` with your site's URL.
 4. Open `Tools > Logs > Console`.
 5. Run `cd hugo-glitch` in the console.
+
+Note, if you can't see files in the Glitch at any point during this process, run the command `refresh` in the Glitch console.
 
 Hugo Files
 ----------
