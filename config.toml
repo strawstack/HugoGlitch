@@ -1,4 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "hugo-uilite"
+title = "Site Title"
+theme = "solar-theme-hugo"
+paginate = 5
+pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
+copyright = ""
+
+[params]
+  scheme = "preference" # light, dark, gray or preference
+  description = "Site description"
+
+[menu]
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts"
+  [[menu.main]]
+    name = "About"
+    url = "/about"
+  [[menu.other]]
+    name = "Tags"
+    url = "/tags"
+  [[menu.other]]
+    name = "Other"
+    url = "#"

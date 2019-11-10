@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site Title</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Site Title</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Nov 2019 00:04:25 -0500</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Second_post</title>
+      <link>http://example.org/posts/second_post/</link>
+      <pubDate>Sun, 10 Nov 2019 00:04:25 -0500</pubDate>
+      
+      <guid>http://example.org/posts/second_post/</guid>
+      <description>Content of second post</description>
+    </item>
+    
+    <item>
+      <title>First_post</title>
+      <link>http://example.org/posts/first_post/</link>
+      <pubDate>Sun, 10 Nov 2019 00:03:15 -0500</pubDate>
+      
+      <guid>http://example.org/posts/first_post/</guid>
+      <description>This is a blog post</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sat, 09 Nov 2019 23:45:05 -0500</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>Describe the site or yourself here!</description>
+    </item>
+    
+  </channel>
+</rss>
