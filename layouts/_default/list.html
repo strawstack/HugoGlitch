@@ -1,6 +1,5 @@
 {{ define "main" }}
-    {{ $paginator := .Paginate (where .Data.Pages "Type" "posts") }}
-    {{ range $paginator.Pages }}
+	{{ range where .Paginator.Pages "Section" "posts" }}
 		<article class="post">
 			<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
 

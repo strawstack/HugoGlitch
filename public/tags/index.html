@@ -11,13 +11,13 @@
 		<title>Tags</title>
 
 		
-		<link rel="stylesheet" href="http://example.org/css/colors-preference.min.a65e4173e6288241b66a095ab4a0d5718d726f5c8d5f0722d9bd283ead128a85.css">
+		<link rel="stylesheet" href="https://pointy-quilt-hugo.glitch.me/css/colors-preference.min.a65e4173e6288241b66a095ab4a0d5718d726f5c8d5f0722d9bd283ead128a85.css">
 
 		
 	</head>
 	<body>
 		<header id="header">
-			<h1><a href="http://example.org/">Site Title</a></h1>
+			<h1><a href="https://pointy-quilt-hugo.glitch.me/">Site Title</a></h1>
 			<p>Site description</p>
 		</header>
 
@@ -27,17 +27,15 @@
 	
 		<ul class="nav">
 			
-				<li><a href="/about"><span>About</span></a></li>
-			
 				<li><a href="/posts"><span>Posts</span></a></li>
+			
+				<li><a href="/tags"><span>Tags</span></a></li>
 			
 		</ul>
 	
 		<ul class="nav">
 			
-				<li><a href="#"><span>Other</span></a></li>
-			
-				<li><a href="/tags"><span>Tags</span></a></li>
+				<li><a href="/about"><span>About</span></a></li>
 			
 		</ul>
 	
@@ -47,11 +45,41 @@
 
 			<div id="content">
 				
-    
-    
-
-	
-
+<section>
+    <ul id="all-taxonomies">
+        
+            
+                <li><a href="https://pointy-quilt-hugo.glitch.me/tags/">tags</a>
+                    <ul>
+                        
+                            <li>tag_one</li>
+                            <ul>
+                                
+                                    <li hugo-nav="/posts/second_post/">
+                                        <a href="https://pointy-quilt-hugo.glitch.me/posts/second_post/">Second Post</a>
+                                    </li>
+                                
+                                    <li hugo-nav="/posts/first_post/">
+                                        <a href="https://pointy-quilt-hugo.glitch.me/posts/first_post/">First Post</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                            <li>tag_two</li>
+                            <ul>
+                                
+                                    <li hugo-nav="/posts/first_post/">
+                                        <a href="https://pointy-quilt-hugo.glitch.me/posts/first_post/">First Post</a>
+                                    </li>
+                                
+                            </ul>
+                        
+                    </ul>
+                </li>
+            
+        
+    </ul>
+</section>
 
 			</div>
 

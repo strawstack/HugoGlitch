@@ -1,42 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/posts/second_post/</loc>
+    <loc>https://pointy-quilt-hugo.glitch.me/posts/</loc>
     <lastmod>2019-11-10T00:04:25-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/posts/first_post/</loc>
+    <loc>https://pointy-quilt-hugo.glitch.me/posts/second_post/</loc>
+    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pointy-quilt-hugo.glitch.me/</loc>
+    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pointy-quilt-hugo.glitch.me/tags/tag_one/</loc>
+    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pointy-quilt-hugo.glitch.me/tags/</loc>
+    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pointy-quilt-hugo.glitch.me/posts/first_post/</loc>
     <lastmod>2019-11-10T00:03:15-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/about/</loc>
+    <loc>https://pointy-quilt-hugo.glitch.me/tags/tag_two/</loc>
+    <lastmod>2019-11-10T00:03:15-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://pointy-quilt-hugo.glitch.me/about/</loc>
     <lastmod>2019-11-09T23:45:05-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://example.org/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/posts/</loc>
-    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2019-11-10T00:04:25-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://example.org/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

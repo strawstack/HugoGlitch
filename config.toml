@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://hugo-template.glitch.me"
 languageCode = "en-us"
 title = "Site Title"
 theme = "solar-theme-hugo"
@@ -13,13 +13,14 @@ copyright = ""
 [menu]
   [[menu.main]]
     name = "Posts"
-    url = "/posts"
+    url = "/posts"    
   [[menu.main]]
-    name = "About"
-    url = "/about"
-  [[menu.other]]
     name = "Tags"
     url = "/tags"
   [[menu.other]]
-    name = "Other"
-    url = "#"
+    name = "About"
+    url = "/about"    
+    
+
+[taxonomies]
+  tag = "tags"
