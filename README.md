@@ -1,7 +1,7 @@
 Hugo-Glitch Template
 ====================
 
-This glitch project is a [Hugo](https://gohugo.io/) template for [Glitch](https://glitch.com/).
+This project is a [Hugo](https://gohugo.io/) template for [Glitch](https://glitch.com/).
 
 >`Hugo`: a framework for creating blogs, portfolios, and product sites.
 >`Glitch`: a platform for quickly building and hosting web apps. 
